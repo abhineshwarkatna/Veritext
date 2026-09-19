@@ -1,0 +1,14 @@
+# Ignore the trained binary model weights
+*.pth
+veritext_model_weights.pth
+
+# Ignore all large CSV datasets
+*.csv
+veritext_preprocessed_dataset.csv
+veritext_preprocessed_dataset_clean.csv
+train_v2_drcat_int.csv
+
+# Ignore local Python runtime cache folders
+__pycache__/
+.pytest_cache/
+.streamlit/
